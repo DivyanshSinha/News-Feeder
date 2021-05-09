@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search_button"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item android:id="@+id/international"
+        android:title="@string/international"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/india"
+        android:title="@string/india"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/sports"
+        android:title="@string/sports"
+        app:showAsAction="never"/>
+
+</menu>

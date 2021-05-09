@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Politics"
+        android:padding="16dp"
+        android:textSize="35sp"
+        android:id="@+id/heading"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SNP focus on Scottish independence is 'wrong debate', says Starmer "
+        android:textSize="22sp"
+        android:padding="16dp"
+        android:id="@+id/body"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="2021-03-11T17:06:03Z"
+        android:textSize="22sp"
+        android:padding="16dp"
+        android:textAlignment="textEnd"
+        android:id="@+id/time"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News Feeder</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="search">Search</string>
+    <string name="international">International</string>
+    <string name="india">India</string>
+    <string name="sports">Sports</string>
+</resources>
